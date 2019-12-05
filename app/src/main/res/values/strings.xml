@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Fragment</string>
+    <string name="Candidate1">James</string>
+    <string name="Candidate2">Yong</string>
+    <string name="Candidate3">Kim</string>
+    <string name="Candidate4">Lee</string>
+    <string name="youVotedFor">You Voted For</string>
+    <string name="voteNow">Vote Now!</string>
+    <string name="voteId">Vote Id:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

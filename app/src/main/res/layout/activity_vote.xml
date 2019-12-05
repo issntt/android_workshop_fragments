@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VoteActivity">
+
+    <LinearLayout
+        android:id="@+id/voteLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHeight_percent="0.2">
+
+        <TextView
+            android:id="@+id/voteIdLabel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            app:layout_constraintWidth_percent="0.4"
+            android:textSize="18dp"
+            android:text="@string/voteId" />
+
+        <EditText
+            android:id="@+id/voteIdText"
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragmentSpot"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.8"
+        app:layout_constraintTop_toBottomOf="@id/voteLayout"/>
+
+</android.support.constraint.ConstraintLayout>
